@@ -6,4 +6,6 @@ In this codelab, You'll create a fully working Google Maps app using elements in
 TODO
 
 - fix the directions form for mobility (popup...  check material design, other polymer elements...)
+- fix the toast (check where its used, maybe use it for directions form?)
+- package as a drop-in polymer element.
 
