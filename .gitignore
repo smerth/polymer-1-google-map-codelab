@@ -1,0 +1,24 @@
+##############
+# Apple stuff
+##############
+
+.DS_Store
+.tmp
+
+###############
+# Polymer
+###############
+
+bower_components/
+build/
+
+
+####################
+# gulp-gh-pages
+####################
+
+# Modules
+node_modules/
+
+# gulp-gh-pages
+.publish

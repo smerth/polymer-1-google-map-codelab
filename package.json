@@ -1,0 +1,16 @@
+{
+  "name": "Polymer-v1-Codelab-Google-Map",
+  "version": "1.0.0",
+  "description": "In this codelab, You'll create a fully working Google Maps app using elements in Polymer's [Google Web Components](https://elements.polymer-project.org/browse?package=google-web-components) collection. The app will be responsive and will include driving directions and transit mode. Along the way, you'll also learn about Polymer's data-binding features and [iron element](https://elements.polymer-project.org/browse?package=iron-elements) set.  DONE 😉 - publish to github pages...",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
