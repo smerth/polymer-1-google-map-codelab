@@ -9,6 +9,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
 
   <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+  <script src="./main.js"></script>
   <link rel="import" href="bower_components/google-map/google-map.html">
   <link rel="import" href="bower_components/google-map/google-map-directions.html">
   
@@ -48,17 +50,17 @@
 
 
 <body unresolved>
-  <template is="dom-bind">
-    <google-map map="{{map}}" latitude="37.779" longitude="-122.3892" zoom="13"
-        api-key="AIzaSyCxw387F6swdLhk0m_aNBazZqg02IZpL5I" disable-default-ui>
-      <google-map-marker latitude="37.779" longitude="-122.3892"
-        title="Go Giants!" draggable="true"></google-map-marker>
+  <template is="dom-bind" id="gmap">
+    <google-map map="{{map}}" latitude="49.24966" longitude="-123.11934" zoom="11"
+        api-key="ADD YOUR KEY HERE" >
+      <google-map-marker latitude="49.24966" longitude="-123.11934"
+        title="Welcome to Vancouver!" draggable="true"></google-map-marker>
     </google-map>
     
     <google-map-directions map="{{map}}"
         start-address="{{start}}"
         end-address="{{end}}"
-        api-key="AIzaSyCxw387F6swdLhk0m_aNBazZqg02IZpL5I" travel-mode="[[travelMode]]"></google-map-directions>
+        api-key="ADD YOUR KEY HERE" travel-mode="[[travelMode]]"></google-map-directions>
     
     <paper-card elevation="2"> <!-- elevation controls the amount of box shadow -->
       <paper-icon-item>
