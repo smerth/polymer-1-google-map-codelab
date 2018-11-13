@@ -4,7 +4,7 @@ A Google Maps single page app built using elements from Polymer's [Google Web Co
 
 
 
-![App Screenshot](screenshot.png)
+![App Screenshot](Screenshot.png)
 
 
 
