@@ -2,11 +2,7 @@
 
 A Google Maps single page app built using elements from Polymer's [Google Web Components](https://elements.polymer-project.org/browse?package=google-web-components) collection. The app is responsive and will include driving directions and transit mode. Easy to integrate into an existing Polymer application
 
-
-
-![App Screenshot](Screenshot.png)
-
-
+![App Screenshot](https://raw.githubusercontent.com/smerth/polymer-google-maps-app/master/Screenshot.png)
 
 ## Installation
 
@@ -30,11 +26,9 @@ bower install
 polymer install
 ```
 
-
-
 ## Create a Google Maps API key
 
-This app requires a Google Maps API key.  Here are the steps to get one:
+This app requires a Google Maps API key. Here are the steps to get one:
 
 - Sign up for Google Cloud Platform
 - Setup billing
@@ -44,11 +38,9 @@ This app requires a Google Maps API key.  Here are the steps to get one:
 
 Once you you have the key, add it to the two components in `index.html` replacing the two instances of `api-key="ADD YOUR KEY HERE"`
 
-
-
 ## Develop
 
-run 
+run
 
 ```bash
 polymer serve
@@ -64,9 +56,6 @@ polymer build
 
 serve the `build/default` folder on local host.
 
-
-
-
 ## Deploy to gh-pages
 
 First set up a github repo and commit the code base.
@@ -77,8 +66,6 @@ Run Gulp deploy
 gulp deploy
 ```
 
-
-
 ## Caveats
 
 This repo was built to learn Polymer it is not supported. It uses Polymer v.1 and as of this time the `google-web-components` have not been updated to support a later version.
@@ -87,9 +74,6 @@ TODO
 
 - search box is not responsive (wrap it in toast?)
 
-
 ## References
 
 [Build Google Maps Using Web Components & No Code!](https://codelabs.developers.google.com/codelabs/polymer-maps/index.html?index=..%2F..%2Findex#0)
-
-
