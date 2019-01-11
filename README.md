@@ -2,7 +2,7 @@
 
 A Google Maps single page app built using elements from Polymer's [Google Web Components](https://elements.polymer-project.org/browse?package=google-web-components) collection. The app is responsive and will include driving directions and transit mode. Easy to integrate into an existing Polymer application
 
-![App Screenshot](https://raw.githubusercontent.com/smerth/polymer-google-maps-app/master/Screenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/smerth/polymer-google-maps-app/master/screenshot.png)
 
 ## Installation
 
