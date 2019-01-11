@@ -1,5 +1,5 @@
 {
-  "name": "Polymer-Google-Maps-App",
+  "name": "polymer-google-maps-app",
   "version": "1.0.0",
   "description": "A Google Maps app using elements in Polymer's Google Web Components collection.",
   "main": "main.js",
